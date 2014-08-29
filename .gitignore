@@ -1,0 +1,8 @@
+.vhash
+build
+.idea
+.version
+*.local.php
+dist/index.html
+node_modules
+bower_components
