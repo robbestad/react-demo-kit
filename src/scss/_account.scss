@@ -1,0 +1,63 @@
+@import '_variables';
+
+.login-wrapper{
+//  background: none repeat scroll 0% 0% $gray;
+//  background: linear-gradient(to bottom, orange, darkorange);
+//  border-radius: 3px;
+//  border:1px solid gray;
+//  font-family: $fontFamilyText;
+//  display: inline-block;
+}
+
+.login-wrapper label input[type="password"] {
+  width: 130px;
+}
+.login-wrapper label input[type="submit"] {
+  float: right;
+}
+
+.login-wrapper .form-group label span, .login-wrapper  label span {
+  font-family: $fontFamilyText;
+  display: block;
+  margin: 0px 0px 2px 2px;
+}
+
+.login-wrapper .checkbox-wrapper {
+  clear: both;
+  margin-left: 6px;
+}
+
+.login-wrapper input[type="checkbox"] {
+  position: relative;
+  top: 2px;
+}
+
+.login-wrapper input[type="radio"], input[type="checkbox"] {
+  margin: 4px 0px 0px;
+  line-height: normal;
+}
+
+.login-wrapper input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+
+
+.btn.btn-info, .btn.btn-buy, .btn.btn-download, .btn.btn-rent, .btn.btn-red {
+  background: -moz-linear-gradient(center top , #F31B2E, #A00815) repeat scroll 0% 0% transparent;
+  border-color: #A00815 #A00815 #6F060F;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3) inset;
+}
+button, input[type="submit"] {
+  cursor: pointer;
+}
+
+.gradient-gray{
+  background: linear-gradient(to bottom, lightgray, $gray);
+
+}
+
+h4{
+  font-size: 2.2rem;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "react-demo-kit",
+  "version": "1.0.0",
+  "authors": [
+    "Sven Anders Robbestad <anders@robbestad.com>"
+  ],
+  "description": "React",
+  "main": "dist/index.php",
+  "keywords": [
+    "shop"
+  ],
+  "license": "Private",
+  "homepage": "http://www.robbestad.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "~2.1.1",
+    "react": "~0.11.1",
+    "font-awesome": "~4.2.0",
+    "bootstrap": "~3.2.0"
+  }
+}
